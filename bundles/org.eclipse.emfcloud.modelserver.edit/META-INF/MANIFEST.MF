@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.emfcloud.modelserver.edit
+Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.edit;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.emfcloud.modelserver.edit
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.emf.common,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.edit,
+ org.eclipse.emfcloud.modelserver.common,
+ com.google.guava
+Export-Package: org.eclipse.emfcloud.modelserver.command,
+ org.eclipse.emfcloud.modelserver.command.impl,
+ org.eclipse.emfcloud.modelserver.command.util,
+ org.eclipse.emfcloud.modelserver.edit

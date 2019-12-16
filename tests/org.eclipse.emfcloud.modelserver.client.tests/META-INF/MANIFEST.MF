@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.client.tests
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.eclipse.emfcloud.modelserver.client;bundle-version="1.0.0"
+Automatic-Module-Name: org.eclipse.emfcloud.modelserver.client.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.junit,
+ org.eclipse.emf.edit,
+ org.emfjson.jackson,
+ org.eclipse.emfcloud.modelserver.emf,
+ com.fasterxml.jackson.core.jackson-annotations;bundle-version="2.9.9",
+ org.eclipse.emf.ecore
+Bundle-ClassPath: lib/okhttp-mock-1.3.2.jar,
+ .

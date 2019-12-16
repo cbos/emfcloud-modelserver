@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.common.tests
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.eclipse.emfcloud.modelserver.common;bundle-version="1.0.0"
+Automatic-Module-Name: org.eclipse.emfcloud.modelserver.common.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.junit,
+ org.eclipse.emf.ecore,
+ com.fasterxml.jackson.core.jackson-databind,
+ com.fasterxml.jackson.core.jackson-annotations;bundle-version="2.9.9",
+ org.eclipse.emfcloud.modelserver.tests
+Export-Package: org.eclipse.emfcloud.modelserver.common.tests.jsonschema
